@@ -144,8 +144,9 @@ The goal is to replace slow manual complaint systems with a transparent, trackab
 # 6. Backend Design (Node.js + Express)
 # 6.1 Folder Structure
 
+```bash
 backend/
-│── src/
+├── src/
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
@@ -153,8 +154,9 @@ backend/
 │   ├── services/
 │   ├── utils/
 │   └── app.js
-│── .env
-│── package.json
+├── .env
+└── package.json
+```
 
 ### 6.2 Authentication Flow
 
