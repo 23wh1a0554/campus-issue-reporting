@@ -107,6 +107,7 @@ The goal is to replace slow manual complaint systems with a transparent, trackab
 
 #### 5.2.1 Users Collection
 
+```json
 {
   "_id": "ObjectId",
   "name": "string",
@@ -117,12 +118,14 @@ The goal is to replace slow manual complaint systems with a transparent, trackab
   "createdAt": "Date",
   "updatedAt": "Date"
 }
+```
 
 **Indexes:**
 -email (unique)
 
 ### 5.2.2 Issues Collection
 
+```json
 {
   "_id": "ObjectId",
   "title": "string",
@@ -136,6 +139,7 @@ The goal is to replace slow manual complaint systems with a transparent, trackab
   "createdAt": "Date",
   "updatedAt": "Date"
 }
+```
 **Indexes:**
 - reportedBy  
 - status  
@@ -202,6 +206,7 @@ backend/
 
 ### 8.1 Folder Structure
 
+```bash
 src/
 ├── components/
 ├── pages/
@@ -209,6 +214,7 @@ src/
 ├── services/
 ├── utils/
 └── App.jsx
+```
 
 ---
 
