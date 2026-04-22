@@ -91,7 +91,10 @@ The goal is to replace slow manual complaint systems with a transparent, trackab
 ---
 
 ## 4. High-Level Architecture
-[ React Frontend ] | |---- REST API ---- | [ Node.js + Express Backend ] | [ MongoDB Atlas ]
+
+```text
+[ React Frontend ] ---- REST API ---- [ Node.js + Express Backend ] ---- [ MongoDB Atlas ]
+```
 
 ---
 
@@ -121,7 +124,7 @@ The goal is to replace slow manual complaint systems with a transparent, trackab
 ```
 
 **Indexes:**
--email (unique)
+- email (unique)
 
 ### 5.2.2 Issues Collection
 
