@@ -123,7 +123,6 @@ The goal is to replace slow manual complaint systems with a transparent, trackab
 
 ### 5.2.2 Issues Collection
 
-```json
 {
   "_id": "ObjectId",
   "title": "string",
