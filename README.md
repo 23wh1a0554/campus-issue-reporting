@@ -107,7 +107,6 @@ The goal is to replace slow manual complaint systems with a transparent, trackab
 
 #### 5.2.1 Users Collection
 
-```json
 {
   "_id": "ObjectId",
   "name": "string",
